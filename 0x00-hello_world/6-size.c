@@ -1,24 +1,22 @@
 #include <stdio.h>
 
-**/
-* main - print the string in the function
+/**
+* main -Entry point
 *
-* Description: usnig the main function
-* This program prints "The main function
-* Return: 0;
+* Return: Always 0 (success)
 */
 int main(void)
 {
-	char c;
-	int i;
-	long li;
-	long long lli;
+	int a;
+	long int b;
+	long long int c;
+	char d;
 	float f;
 
-	printf("Size of a char: %d byte(s)\n", sizeof(c));
-	printf("Size of an int: %d byte(s)\n", sizeof(i));
-	printf("Size of long int: %d byte(s)\n", sizeof(li));
-	printf("Size of long long int: %d byte(s)\n", sizeof(lli));
-	printf("Size of float: %d byte(s)\n", sizeof(f));
-	return (0);
+	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of long int: %lu byte(s)\n",(unsigned long)sizeof(b));
+	printf("Size of long long int: %lu byte(s)\n",(unsigned long)sizeof(c));
+	print("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
+ 	return (0);
 }
