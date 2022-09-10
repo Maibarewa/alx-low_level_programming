@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 **/
-* main - print the sizeof function on the main
+* main - print in the sizeof
 *
-* Description: Using the main and sizeof function
-* This program print various types of sizeof function
+* Description: Printing Size of function
+* This program print various sizeof function
 * Return: 0
 */
 int main(void)
@@ -15,9 +15,11 @@ int main(void)
 	long long ll;
 	float f;
 
-	printf("Size of a char: %c bytes(s)\n", sizeof(c));
+	printf("Size of a char: %c byte(s)\n", sizeof(c));
 	printf("Size of an int: %d byte(s)\n", sizeof(i));
-	printf("Size of a long: %d byte(s)\n", sizeof(l));
-	printf("Size of a long long: byte(s)\n", sizeof(ll));
-	printf("Size of a float: %f byte(s)\n", sizeof(f));
+	printf("Size of long: %d byte(s)\n", sizeof(l));
+	printf("Size of long long: %d(s)\n", sizeof(ll));
+	printf("Size of float: %f byte(s)\n", sizeof(f));
+	return (0);
+
 }
