@@ -1,16 +1,15 @@
-#include <stdlib.h>#
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
 /**
-* main - prints a random number and state weather the number is
-* positive, negative, or zero.
-*
-Return:0
-*/
+ * main - Prints a random number and states whether is +v , -v, or o.
+ *
+ * Return: Always 0.
 int main(void)
 {
 	int n;
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
