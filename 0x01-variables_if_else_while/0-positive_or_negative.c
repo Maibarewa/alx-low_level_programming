@@ -1,13 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <stdio.h>
 
 /**
-* main - C programming
+* main - printing random numbers and showing weather it is positive negative or zero
 *
-* Description: how to use if else and variable
-* This pp
-* this program prints random number
 * Return: 0
 */
 int main(void)
@@ -15,20 +12,13 @@ int main(void)
 	int n;
 	
 	srand(time(0));
-	n = rand() -RAND_MAX/2;
+	n = rand() - RAND_MAX / 2;
 
-	/* if else condition */
-if(n>0)
-{
-	printf("%l is positive\n" ,n);
-}
-else if (n==0;)
-{
-	printdf("%l is zero\n" ,n);
-}
-else if (n<0)
-{
-	printf("%l is negative\n" ,n);
-}
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
+	else
+		printf("%d is zero\n", n);
 	return (0);
 }
