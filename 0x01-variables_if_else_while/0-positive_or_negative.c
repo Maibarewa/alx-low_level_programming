@@ -1,16 +1,16 @@
-#include <stdlib.h>
+#include <stdlib.h>#
 #include <time.h>
 #include <stdio.h>
 
 /**
- * main - prints a random numbers and state if the number is positive, negative * or zero
- *
- * Return: 0.
- */
+* main - prints a random number and state weather the number is
+* positive, negative, or zero.
+*
+Return:0
+*/
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
@@ -19,9 +19,7 @@ int main(void)
 	else if (n < 0)
 		printf("%d is negative\n", n);
 	else
-		
 		printf("%d is zero\n", n);
-
 
 	return (0);
 }
