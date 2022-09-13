@@ -1,30 +1,25 @@
 #include <stdlib.h>
 #include <time.h>
-#include <time.h>
+#include <stdio.h>
 
 /**
- * main - prints a random number and find weather is the number is positiv * negative or zero
+ * main - prints a random number and state weather it is +v,-v,or zero
  *
- * 
- * Return: 0 .
+ * Return: 0
  */
 int main(void)
 {
-	in n;
+	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	
+
 	if (n > 0)
-{
-	printf("%d is positive\n", n);
-} 
+		printf("%d is positive\n", n);
 	else if (n == 0)
-{
-	printf("%d is zeron\", 0);
-}	
-	else 	
-{
-	printf("%d is negative\n",0);
-}
+		printf("%d is negative\n", n);
+	else
+		printf("%d is zero\n", n);
+
 	return (0);
 }
