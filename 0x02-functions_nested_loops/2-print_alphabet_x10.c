@@ -1,8 +1,6 @@
 #include "main.h"
-
 /**
- * print_laphabet_tentimes - function to print abc.. times ten
- * 
+ * print_laphabet_tentimes - function to print abc times ten 
  * Description: this program print lowercase ten times
  * Return: 0
  */
