@@ -2,6 +2,8 @@
 
 /**
  * print_laphabet_tentimes - function to print abc.. times ten
+ * 
+ * Description: this program print lowercase ten times
  * Return: 0
  */
 void print_alphabet_x10(void)
