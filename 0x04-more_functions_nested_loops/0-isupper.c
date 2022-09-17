@@ -3,12 +3,11 @@
 
 /**
  * _isupper - print upper case from a to z
- *
+ * @c: the parameter
  * Return: returns 1, and 0 other wise
  */
 int _isupper(int c)
 {
-	int c;
 
 	if ((c >= 'A') && (c <= 'Z'))
 	{
