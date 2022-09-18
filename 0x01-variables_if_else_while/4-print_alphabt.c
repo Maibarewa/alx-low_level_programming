@@ -10,15 +10,11 @@ int main(void)
 {
 	char lower = 'a';
 
-	while (lower <= 'z')
-	{
+	while (lower <= 'z'){
 		if ((lower == 'e') || (lower == 'q'))
-		{
-		continue;
-		}
-		putchar(lower);
-		++lower;
-		
+			++lower;
+			putchar(lower);
+			++lower;
 	}
 	putchar('\n');
 
