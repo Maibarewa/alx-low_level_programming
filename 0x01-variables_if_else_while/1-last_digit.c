@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - assign arandom number to the varible n each time is executed and *
- * Description: The if else variable 
+ * main - assign arandom number to the varible n each time is executed and  
  *
  * Return: 0
  */
@@ -16,6 +15,7 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;	
 	x = n % 10;
+
 	if (x > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, x);
