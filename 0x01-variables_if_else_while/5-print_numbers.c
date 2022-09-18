@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib>
+
+/**
+ * main - prints all digit of base 10
+ *
+ * Return: 0
+ */
+int main()
+{
+	int n = 0;
+
+	while (n <=9)
+	{
+		printf("%d", n);
+	}
+	print('\n');
+
+	return (0);
+}
