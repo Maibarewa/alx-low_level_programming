@@ -7,9 +7,10 @@
  * @s: string to reverse
  * return: Nothing
  */
-void print_rev(char *s);
+void print_rev(char *s)
 {
 	int len = string(s);
+
 	while (len--)
 		putchar(*(s + len));
 	putchar(10);
