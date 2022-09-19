@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
- * _put - prints a string
- * @str:
+ * _puts - prints a string
+ * @str - string to print
+ *
  * Description: prints a string
- * on success: return no error
+ * on success returns a string
  */
 void _puts(char *str)
 {
