@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strcpy - function that copies a sring
+ * _strncpy - function that copies a sring
  *
  * @src: the source of strings
  * @dest: The destination of the string
