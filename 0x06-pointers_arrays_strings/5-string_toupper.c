@@ -1,4 +1,5 @@
 #include "main.h"
+#include  <stdio>
 
 /**
  * string_toupper - change lower to upper 
