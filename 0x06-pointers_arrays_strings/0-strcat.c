@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
- * _strcat - This is a fuction strcat
- * @dest: first parameter
- * @src: second parameter
- * Rturn: dest
+ * *_strcat - This fuction cancatenate string
+ *@dest: parameter
+ *@src: parameter2
+ *Return: destination
  */
 char *_strcat(char *dest, char *src)
 {
