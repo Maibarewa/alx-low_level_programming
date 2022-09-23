@@ -1,19 +1,23 @@
 #include "main.h"
-
+#include <stdlib>
+#include <string.h>
 /**
- * string_touper - converting any string to upper
- * @x: string parmeter
- * Return: string
+ * _strcat - This is a fuction strcat
+ * @dest: first parameter
+ * @src: second parameter
+ * Return: a string
  */
-char *string_toupper(char *)
+char *_strcat(char *dest, char *src)
 {
-	int i = 0;
-	
-	while (x[i])
+	int len = 0, i;
+
+	while (dest[len])
+		len++;
+	for (i = 0; src[i] != '0'; i++)
 	{
-		if (x[i] >= 97 && x[i] <= 122 )
-			x[i] = x[i] - 32;
-		i++;
+		dest[len] = src[i];
+		len += 1;
 	}
-	return (x);
+	dest[len] = '\0';
+	return (dest);
 }

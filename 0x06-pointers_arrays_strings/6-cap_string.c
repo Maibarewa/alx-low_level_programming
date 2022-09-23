@@ -7,7 +7,7 @@
  */
 char *cap_string(char *)
 {
-	x =  "sami, is : in learn programming africa"
+x =  "sami, is : in learn programming africa"
 	char spc[] = {32, 9, '\n' , ',', ';','.', '!', '?', '"', '(', ')', '{', '}',  };
 	int len = 13
 	int a = 0 , i;
