@@ -1,27 +1,19 @@
 #include "main.h"
 
 /**
- * _strcat - concatenate 2 string
- * @dest: char
- * @src: char
- * Return: char
+ * string_touper - converting any string to upper
+ * @x: string parmeter
+ * Return: string
  */
-char *_strcat(char *dest, char *src)
+char *string_toupper(char *)
 {
-	char *s = dest;
-
-	while (*dest != '\0')
+	int i = 0;
+	
+	while (x[i])
 	{
-		dest++;
+		if (x[i] >= 97 && x[i] <= 122 )
+			x[i] = x[i] - 32;
+		i++;
 	}
-
-	while (*src != '\0')
-	{
-		*dest = *src;
-		dest++;
-		scr++;
-	}
-	*dest = '\0';
-	return (s);
+	return (x);
 }
-
