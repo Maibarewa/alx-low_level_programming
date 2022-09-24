@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * positive_or_negative - this checks weather number is postive or negative
- * @n: checks sign
- * Return: postive or negative
+ * main - this checks weather number is postive or negative
+ * Return: 0
  */
 int main(void)
 {
