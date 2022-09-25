@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stlib>
+#include <stlib.h>
 
 /**
  * main - the function print all digit number of base 10 starting from 0
