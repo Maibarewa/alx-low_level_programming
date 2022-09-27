@@ -13,9 +13,5 @@ ar *_strchr(char *s, char c)
 	{
 		*s = c;
 	}
-	else
-	{
-		*s = NULL;
-	}
 	return (s);
 }
