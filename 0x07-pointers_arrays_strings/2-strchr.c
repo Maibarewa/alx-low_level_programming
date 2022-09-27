@@ -7,11 +7,20 @@
  *
  * Return: return the characters
  */
-ar *_strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
-	if (c != NULL)
+	int i = 0;
+
+	while (*(s + i) != '0')
 	{
-		*s = c;
+		if (*(s + i) == c)
+		{
+			return ((s + i));
+		}
+		else
+		{
+			i++;
+		}
 	}
-	return (s);
+	return ('0');
 }
