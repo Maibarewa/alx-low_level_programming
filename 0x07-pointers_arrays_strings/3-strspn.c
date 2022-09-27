@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _strspn - grt the lenght of a prefix
- * @s: The null-terminated string to be scanned 
- * @accept: the null- terminating string containing the character to match
+ * _strspn - get the lenght of a prefix substracting.
+ * @s: The null-terminated string string subtracitng.
+ * @accept: The null terminated string containing the characters to match
  *
- * Return: Return the number of bytes in the initial segment of s which 
- * consist of only of bytes from accept
+ * Return: Return the number of byte in the initial segment
+ * ofbyte swhich consist only of bytes from accept
  */
 unsigned int _strspn(char *s, char *accept)
 {
