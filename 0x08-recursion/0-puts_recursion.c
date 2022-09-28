@@ -9,7 +9,7 @@ void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
-	_:wqputchar('\n');
+		_putchar('\n');
 		return (0);
 	}
 	_putchar (*s);
