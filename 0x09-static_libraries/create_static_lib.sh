@@ -1,3 +1,3 @@
 #!/bin/bashi
 gcc -wall -pedantic -werror -wextra -c *.c
-ar rc liball.a *.o
+ar -rc liball.a *.o
