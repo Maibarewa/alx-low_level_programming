@@ -1,4 +1,5 @@
 #!/bin/bash
 gcc -wall -pedantic -werror wextra -c *.c
-ar cr liball.a
+ar -rc liball.a *.o
 ar -t liball.a
+
