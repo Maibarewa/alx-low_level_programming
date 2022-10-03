@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	for (index = 0; n < argc; index++)
+	for (index = 0; index < argc; index++)
 	{
 		multiplication = multiplication * atoi(argv[index]);
 	}
