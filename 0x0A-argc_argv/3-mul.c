@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int n; multiplication;
+	int n, multiplication;
 
 	multiplication = 1;
 	if (argc < 3)
