@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int n, multiplication;
+	int index, multiplication;
 
 	multiplication = 1;
 	if (argc < 3)
@@ -19,9 +19,9 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	for (n = 0; n < argc; n++)
+	for (index = 0; n < argc; index++)
 	{
-		multiplication = multiplication * atoi(argv[n]);
+		multiplication = multiplication * atoi(argv[index]);
 	}
 	printf("%d\n", multiplication);
 	return (0);
