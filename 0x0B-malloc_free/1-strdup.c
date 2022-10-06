@@ -13,7 +13,6 @@ char *_strdup(char *str)
 {
 	char *nstr;
 	unsigned int len, i;
-
 	/*check is the string null*/
 	if (str == NULL)
 	{
@@ -25,7 +24,6 @@ char *_strdup(char *str)
 		len++;
 	}
 	nstr = malloc(sizeof(char) * (len + 1));
-
 	/*check if malloc was successful*/
 	if (nstr == NULL)
 	{
