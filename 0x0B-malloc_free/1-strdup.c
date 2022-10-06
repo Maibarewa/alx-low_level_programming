@@ -5,7 +5,6 @@
  * _strdup - returns a pointer to newly allocated space in a memory
  * which contains a copy of the string passed
  * @str: pointer to the string bieng duplicated
- *
  * Return: NULL if the string is NULL 
  * pointer to the dulplicated string on success
  * NULL if memory was insufficient
