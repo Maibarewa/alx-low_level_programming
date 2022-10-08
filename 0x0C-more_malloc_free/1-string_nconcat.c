@@ -33,6 +33,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n):wq
 
 	for (index = 0; s2[index] && index < n; index++)
 		concat[len++] = s2[index];
+
 	concat[len] = '\0';
+
 	return (concat);
 }
