@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <string.h>
 /**
  * string_nconcat - concatenate s1 and n bytes of s2; return ptr to string
  * @s1: string 1
