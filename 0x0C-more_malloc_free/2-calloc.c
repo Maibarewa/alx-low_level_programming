@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * _calloc - Allocate memory for an array of certain number of element
+ * *_calloc - Allocate memory for an array of certain number of element
  * each of an input bytes size.
- * @nmemb:
- * @size:
+ * @nmemb: The number of elements
+ * @size: The byte size of each array element
  *
  * Return: Null if nmemb is 0, size is 0 or function fails.
  * Poiter other wise
