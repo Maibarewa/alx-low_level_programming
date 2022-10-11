@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * print_dog - initializes a variable dog
@@ -11,16 +12,14 @@ void print_dog(struct dog *d)
 {
 	if (d)
 	{
-		if (!(d->name))
-			printf("Name: (nil)\n");
-		else
-			printf("Name: %s\n", d->name);
-		
-		printf("Age: %f\n ", d->ag);
+		if (d->name == NULL)
+			return;
+		if (d->name == NULL)
+			d->name = "(nil)";
+		if (d->owner == NULL)
+			d->owner = "(nil)";
 
-		if(!(d->owner))
-			printf("Owner: (nil)\n");
-		else
-			print("Owner: %s\n",d->owner);
+		printf("Name: %s\nAge: f\nowner: %s\n", d->name, d->age, d->owner);
+		
 	}
 }
