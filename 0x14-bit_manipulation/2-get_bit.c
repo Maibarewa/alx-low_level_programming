@@ -5,6 +5,7 @@
  * @n: number to check bits in
  * @index: index at which to check bit
  *
+ * Return: Value
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
