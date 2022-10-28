@@ -2,7 +2,7 @@
 
 /**
  * _pow - calculate (base ^ power)
- * @base: base of the exponent 
+ * @base: base of the exponent
  * @power: power of exppnent
  *
  * Return: power
@@ -26,7 +26,7 @@ unsigned long int _pow(unsigned int base, unsigned int power)
  */
 void print_binary(unsigned long int n)
 {
-	unsigned long int divisor,check;
+	unsigned long int divisor, check;
 	char flag;
 
 	flag = 0;
