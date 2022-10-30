@@ -21,9 +21,9 @@ void print_all(const char * const format, ...)
 		j = 0;
 		while (t_arg[j])
 		{
-			if (format[i] == t_arg[i] && c)
+			if (format[i] == t_arg[j] && c)
 			{
-				printf(", ");
+				printf(",");
 				break;
 			} j++;
 		}
@@ -49,6 +49,7 @@ void print_all(const char * const format, ...)
 			break;
 		} i++;
 	}
-	printf("\n"), va_end(valist);
+	printf("\n");
+       	va_end(valist);
 }
 
